@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "package/common-styles"
+    },
+    {
+      "path": "package/project-a"
+    },
+    {
+      "path": "package/project-b"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "test-yarn-workspace/.yarn/sdks/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true
+  }
+}
