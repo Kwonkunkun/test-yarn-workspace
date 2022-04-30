@@ -11,7 +11,7 @@
     }
   ],
   "settings": {
-    "typescript.tsdk": "test-yarn-workspace/.yarn/sdks/typescript/lib",
+    "typescript.tsdk": "../../.yarn/sdks/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true
   }
 }
