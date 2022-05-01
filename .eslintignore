@@ -1,0 +1,9 @@
+dist
+node_modules
+.yarn
+.pnp.cjs
+.pnp.loager.mjs
+
+.eslintrc.js
+.babel.config.js
+vite.config.ts

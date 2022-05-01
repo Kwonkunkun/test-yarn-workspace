@@ -1,7 +1,9 @@
-import { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import {colors} from "@common/styles"
+import { useState } from 'react';
+import './App.css';
+
+import { colors } from '@common/styles';
+
+import logo from './logo.svg';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,8 +15,10 @@ function App() {
         <p>Hello Vite + React!</p>
         <p>
           <button
-           style={{backgroundColor: colors.black}}
-           type="button" onClick={() => setCount((count) => count + 1)}>
+            style={{ backgroundColor: colors.black }}
+            type="button"
+            onClick={() => setCount(prev => prev + 1)}
+          >
             count is: {count}
           </button>
         </p>
@@ -30,7 +34,7 @@ function App() {
           >
             Learn React
           </a>
-          {" | "}
+          {' | '}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
